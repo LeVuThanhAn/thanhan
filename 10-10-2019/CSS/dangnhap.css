@@ -1,0 +1,40 @@
+.body{
+	background-color: #fed014;
+}
+.form{
+	margin: 0 auto;
+	height: 20em;
+	width: 30em;
+}
+.form-dn{
+	background-color: #ecf0f1;
+	width: 20em;
+	display: block;
+	border-radius: 10px 10px 10px 10px;
+
+}
+.uspa{
+	margin-bottom: 5px;
+	height: 2em;
+	width: 15em;
+	border-color: #f1c40f;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	outline: none;
+	background-color: #ecf0f1;
+
+}
+::-webkit-input-placeholder {
+  
+  color: black;
+  text-align: center;
+}
+.uspa:focus{
+	border-color: #c0392b;
+}
+@media screen and (max-width: 1000px) {
+	.banner-sict{
+		width: 100%;
+	}
+}
